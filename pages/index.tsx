@@ -1,11 +1,14 @@
-const App = ()=>{
+import {Button} from "../stories/Button";
+import classes from '../styles/app.module.scss'
 
-    return(
+
+const App = () => {
+    return (
         <>
-            
-            </>
+            <p className={classes.text}>Welcome to the app</p>
+            <Button label={'sd'}/>
+        </>
     )
 }
 
-export const App
-
+export default App
