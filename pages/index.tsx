@@ -31,10 +31,6 @@ const App = () => {
             <div className="m-10">
                 <Button label={'Foo button'}/>
             </div>
-
-            <div>
-                <p>Foo</p>
-            </div>
         </>
     )
 }
