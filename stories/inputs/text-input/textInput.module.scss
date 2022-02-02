@@ -1,0 +1,22 @@
+.wrapper {
+  max-height: 61px;
+  border: 1px solid #66667B;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-left:16px;
+
+  .legend {
+    margin-right: auto;
+    padding: 0 4px;
+    color: #66667B;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    background-color: #ffffff00;
+    height: 39.34%;
+    padding: 11px 48px 12px 4px;
+  }
+}
+

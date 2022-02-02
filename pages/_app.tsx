@@ -1,5 +1,4 @@
-import '../styles/main.scss'
-
+import '../styles/globals.scss'
 
 const MyApp = ({Component, PageProps}) => {
     return (
@@ -7,8 +6,6 @@ const MyApp = ({Component, PageProps}) => {
             <Component{ ...PageProps }/>
         </>
     )
-
-
 }
 
 export default MyApp
